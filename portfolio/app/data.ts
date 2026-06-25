@@ -85,9 +85,9 @@ export const experience = [
     org: "University of Saskatchewan · Dr. Zadia Codabux",
     date: "May 2026 – Present",
     bullets: [
-      "Analysed and synthesized academic literature on technical debt, code smell detection, and LLMs, producing structured summaries that informed active research directions in the Software Quality Lab",
-      "Built NLP and text classification skills through hands-on work with Python, scikit-learn, and defect prediction pipelines across multiple concurrent research projects",
-      "Supported a Mitacs research intern on a data structures and algorithms textbook analysis project, contributing ideas and feedback on weekly progress presentations",
+      "Analysed and synthesized academic papers on technical debt, code smell detection, and LLMs, producing structured research summaries that directly shaped active research directions across multiple projects in the Software Quality Lab",
+      "Developed hands-on expertise in NLP and text classification by building and evaluating defect prediction pipelines in Python using scikit-learn, contributing to empirical software engineering research alongside PhD-level researchers",
+      "Supported a Mitacs research intern on a data structures and algorithms textbook analysis project, providing technical guidance and presentation feedback that helped her deliver consistent weekly progress across a 12-week research timeline",
       
     ],
   },
