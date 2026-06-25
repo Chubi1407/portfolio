@@ -50,7 +50,7 @@ export default function Navbar() {
             letterSpacing: "0.04em",
           }}
         >
-          chibuikem.dev
+          chibuikem.vercel.app
         </span>
         <ul style={{ display: "flex", gap: 24, listStyle: "none" }}>
           {links.map((l) => (

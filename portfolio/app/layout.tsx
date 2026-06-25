@@ -7,7 +7,8 @@ export const metadata: Metadata = {
     "Software developer and CS graduate (USask, 2026) specialising in full-stack development, cloud architecture, and NLP. Currently researching software quality at the USask Software Quality Lab. Open to junior developer and analyst roles across Canada.",
   openGraph: {
     title: "Chibuikem Emeka-Nwuba",
-    description: "CS student & builder: full-stack, cloud, ML.",
+    description:
+      "Software developer and CS graduate (USask, 2026) specialising in full-stack development, cloud architecture, and NLP. Currently researching software quality at the USask Software Quality Lab. Open to junior developer and analyst roles across Canada.",
     siteName: "Chibuikem Emeka-Nwuba",
     locale: "en_CA",
     type: "website",
