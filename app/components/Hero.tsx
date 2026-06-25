@@ -18,17 +18,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section
-      ref={ref}
-      style={{
-        display: "grid",
-        gridTemplateColumns: "1fr auto",
-        gap: 48,
-        alignItems: "center",
-        marginBottom: 96,
-        paddingTop: 120,
-      }}
-    >
+    <section ref={ref} className="hero-grid">
       <div>
         <p
           style={{
@@ -96,6 +86,36 @@ export default function Hero() {
             Get in touch
           </a>
           <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              fontFamily: "var(--font-mono)",
+              fontSize: 11,
+              letterSpacing: "0.06em",
+              textTransform: "uppercase",
+              padding: "10px 20px",
+              borderRadius: 4,
+              textDecoration: "none",
+              background: "transparent",
+              color: "var(--muted)",
+              border: "0.5px solid var(--border)",
+              transition: "all 0.2s",
+            }}
+            onMouseEnter={(e) => {
+              const el = e.currentTarget as HTMLElement;
+              el.style.color = "var(--text)";
+              el.style.borderColor = "rgba(255,255,255,0.22)";
+            }}
+            onMouseLeave={(e) => {
+              const el = e.currentTarget as HTMLElement;
+              el.style.color = "var(--muted)";
+              el.style.borderColor = "var(--border)";
+            }}
+          >
+            Resume →
+          </a>
+          <a
             href="https://github.com/Chubi1407"
             target="_blank"
             rel="noopener noreferrer"
@@ -159,9 +179,10 @@ export default function Hero() {
       </div>
 
       <div
+        className="hero-photo"
         style={{
-          width: 220,
-          height: 220,
+          width: 164,
+          height: 164,
           flexShrink: 0,
           borderRadius: "50%",
           overflow: "hidden",
