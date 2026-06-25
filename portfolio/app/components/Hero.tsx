@@ -66,9 +66,10 @@ export default function Hero() {
             marginBottom: 28,
           }}
         >
-          Computer Science student at the University of Saskatchewan. I build
-          full-stack systems, serverless architectures, and ML-powered tools.
-          Currently researching NLP applications in software quality.
+          Software developer and CS graduate (USask, 2026) specialising in
+          full-stack development, cloud architecture, and NLP. Currently
+          researching software quality at the USask Software Quality Lab. Open
+          to junior developer and analyst roles across Canada.
         </p>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
           <a
